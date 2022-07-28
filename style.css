@@ -1,0 +1,123 @@
+/**************************************************************
+STYLE.CC Module 
+written by: Monica Luu
+**************************************************************/
+/**************************************************************
+Adobe colours: 
+light green : #8DA33B
+sage green : #627231
+dark green : #0F1C14
+white : #F1ECEB
+beige: #D9BAA2
+**************************************************************/
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 20px;
+    margin: 0%;
+    height: 100%;
+    background-color: #F1ECEB;
+}
+
+#title {
+    text-align: center;
+    color: #F1ECEB;
+}
+
+header {
+    background-color: #8DA33B;
+    padding: 24px;
+}
+
+.wkHeader {
+    text-align: left;
+}
+
+img {
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navBar {
+    color: #F1ECEB;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #0F1C14;
+    color: #D9BAA2;
+}
+
+/**************************************************************
+Landing page
+**************************************************************/
+#landingPage {
+    display: block;
+    height: 100vh;
+}
+
+#blog_title {
+    background-color: #0F1C14;
+    color: #F1ECEB;
+}
+
+/* First image (Logo. Full height) */
+.mainImg {
+    background-image: url('images/main/terrain.jpg');
+    min-height: 100%;
+}
+
+/* Update blog styling */
+#update_section {
+    background-color: #627231;
+    color: #F1ECEB;
+}
+
+#update_title {
+    color: #F1ECEB;
+}
+
+.centerText {
+    color: #F1ECEB;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#centerBlogBtn {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/**************************************************************
+Blog post page
+**************************************************************/
+#postsPage {
+    display: block;
+    height: 100vh;
+}
+
+#navBlogBar {
+    background: #0F1C14;
+    color: #F1ECEB;
+}
+
+/**************************************************************
+Blog post 1 page
+**************************************************************/
+#blog_1 {
+    display: none;
+    height: 100vh;
+    padding:5%;
+}

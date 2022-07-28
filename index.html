@@ -1,0 +1,88 @@
+<!--
+    INDEX.HTML MODULE 2022 
+    written by: Monica Luu
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--start of links-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <script src="pageTransitions.js"></script>
+    <!--end of links-->
+    <title>Monica's Blog</title>
+    <!--favicon-->
+    <link rel="icon" type="image/x-icon" href="images/main/plant_favicon.png">
+</head>
+
+<body>
+    <!--navBar-->
+    <div class="w3-top">
+        <div id="navBar" class="w3-bar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right"
+                href="javascript:void(0);">
+                <a href="index.html" class="w3-bar-item w3-button">HOME</a>
+                <a href="blog.html" class="w3-bar-item w3-button w3-hide-small">
+                    <i class="fa fa-th"></i> BLOG POSTS</a>
+        </div>
+    </div>
+
+    <!--main-->
+    <main>
+        <!--
+            LANDING PAGE SECTION
+        -->
+        <section id="landingPage">
+            <!-- Main Image -->
+            <div class="mainImg w3-display-container" id="home">
+                <p class="centerText"><em>An innovative compost company</em></p>
+                <div class="w3-display-middle" style="white-space:nowrap;">
+                    <span id="blog_title" class="w3-center w3-padding-large w3-xlarge w3-wide w3-animate-opacity">
+                        SAGE <span class="w3-hide-small"> GROVE </span>
+                </div>
+
+            </div>
+
+            <!--About Section-->
+            <div id="about" class="w3-content w3-container w3-padding-64">
+                <h3 class="w3-center">Sage C.</h3>
+                <p class="w3-center"><em>New solutions</em></p>
+                <p class="w3-center"> Sage Grove is an idea thought up for the assignment,
+                    3.1 Making a Difference. The main objective of the assingment is to take a
+                    real world waste problem and design a fun, innovative solution. This website
+                    is to document the progress and updates of the assignment, from ideation to
+                    final solution. </p>
+            </div>
+
+            <!--Update Links-->
+            <div id="update_section" class="w3-container w3-padding-64">
+                <h3 id="update_title" class="w3-center w3-wide">BLOG POSTS</h3>
+                <p class="w3-center"> Click to the button below to read about the current blog updates on the
+                    development of Sage Grove.</p>
+                <div class="w3-container w3-padding-64">
+                    <a id="centerBlogBtn" href="blog.html" class="w3-button w3-large w3-border">BLOG POSTS</a>
+                </div>
+            </div>
+
+            <!--footer-->
+            <footer class="w3-container w3-center w3-padding-64">
+                <button id="toTopBtn" 
+                class="w3-button" 
+                onclick="toTop()" 
+                title="Go to top">
+                &#8593; To the top</button>
+                <p>&copy; Monica Luu 2022</p>
+            </footer>
+        </section>
+    </main>
+</body>
+
+</html>
