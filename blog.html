@@ -11,13 +11,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--start of links-->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400;600;700&display=swap"
         rel="stylesheet">
     <script src="pageTransitions.js"></script>
     <!--end of links-->
+
     <title>Monica's Blog</title>
     <!--favicon-->
     <link rel="icon" type="image/x-icon" href="images/main/plant_favicon.png">
@@ -40,8 +41,11 @@
         -->
     <section id="postsPage">
 
-        <!--Blog Post 1 Card-->
+        <!--
+            Blog Post 1 Card
+        -->
         <div class="w3-col l8 s12">
+            <!--Week 1 card-->
             <div class="w3-card-4 w3-margin w3-white">
                 <img src="images/Wk1/3-1_Visual_Research.jpg" alt="3.1 Gardening Moodboard" style="width:100%">
                 <div class="w3-container">
@@ -49,9 +53,34 @@
                     <h5>Draft Proposition Update, <span class="w3-opacity">25th July, 2022</span></h5>
                 </div>
 
+                <!--card description-->
                 <div class="w3-container">
                     <p>This week we did some research, ideation and target audience research on the assignment 3.1, Make
                         a Difference. </p>
+                    <div class="w3-row">
+                        <div class="w3-col m8 s12">
+                            <p><button class="w3-button w3-padding-large w3-white w3-border"
+                                    onclick="b1Switch()"><b>READ MORE »</b></button></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+                Week 2 card
+            -->
+            <div class="w3-card-4 w3-margin w3-white">
+                <!--<img src="images/Wk1/3-1_Visual_Research.jpg" alt="3.1 Gardening Moodboard" style="width:100%">-->
+                <div class="w3-container">
+                    <h3><b>WEEK 2</b></h3>
+                    <h5>Prototype Update, <span class="w3-opacity">1st August, 2022</span></h5>
+                </div>
+
+                <!--card description-->
+                <div class="w3-container">
+                    <p>This week we did some more research, ideation, refined our personas and prototyping
+                        on the assignment. We updated our personas, user journeys and user mapping with new
+                        developments. </p>
                     <div class="w3-row">
                         <div class="w3-col m8 s12">
                             <p><button class="w3-button w3-padding-large w3-white w3-border"
@@ -67,11 +96,13 @@
         <div class="w3-rest">
             <h3 class="w3-wide"><b>List of Posts</b></h3>
             <div id="blogNavBtn">
-                <button class="w3-button w3-padding-large w3-white w3-border"> WEEK 1 </button>
+                <button class="w3-button w3-padding-large w3-white w3-border" onclick="b1Switch()"> WEEK 1 </button>
+                <button class="w3-button w3-padding-large w3-white w3-border" onclick="b2Switch()"> WEEK 2 </button>
             </div>
         </div>
 
     </section>
+    <!--closing post section-->
 
     <!--
         BLOG POST 1
@@ -244,6 +275,54 @@
             </footer>
     </section>
     <!--closing blog_1 section-->
+
+    <!--
+        BLOG POST 2
+    -->
+    <section id="blog_2">
+        <div class="w3-container w3-padding-64">
+            <img src="images/main/dirt.png" alt="dirt icon">
+            <h2 class="wkHeader w3-center w3-wide"><b>Week 2: Prototypes</b></h2>
+            <hr>
+            <h5><span class="w3-opacity">1st August, 2022</span></h5>
+
+            <div class="blog_section w3-card-4">
+
+                <!--Touch points-->
+                <h3><b>Touch points</b></h3>
+                <p>I have compiled a series of touchpoints where the user would interact with the company, from website to product. </p>
+
+                <!--User Mapping-->
+                <h3><b>User Mapping</b></h3>
+                <p>Below is the image of the user mapping I did on Tuesday the 26th. This has helped me thoroughly think through how the user would be introduced to the brand, and how they woud use it. </p>
+
+                <!--Refinements-->
+                <h3><b>Refinements</b></h3>
+                <p>Following the exploration on touch points and user mapping, I have further refined my personas, user journeys and prototypes from last week.</p>
+
+                <h4>Refined Personas</h4>
+                <p>I have changed these personas to reflect </p>
+
+                <h4>Refined User Journey</h4>
+
+                <h4>Refined Prototypes</h4>
+                <p>I have further refined my prototypes with further detail and more options.</p>
+
+                <!--User Testing-->
+                <h3><b> User Testing</b></h3>
+                <p>I tested out my website and compost bin prototypes on different users. Below is the documentation of the results and notes.</p>
+
+
+            </div>
+            <!--closing blog_section div-->
+            <!--footer-->
+            <footer class="w3-container w3-center w3-padding-64">
+                <button id="toTopBtn" class="w3-button" onclick="toTop()" title="Go to top">
+                    &#8593; To the top</button>
+                <p>&copy; Monica Luu 2022</p>
+            </footer>
+    </section>
+    <!--closing blog_2 section-->
 </body>
 
 </html>
